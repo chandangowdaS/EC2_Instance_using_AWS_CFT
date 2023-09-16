@@ -1,0 +1,7 @@
+Created Ec2 instance using JSON
+
+Created Stack
+upoaded CFT code enabled drift detection
+Instance created using CFT
+Deleted instance
+Drift detected about instance deletion

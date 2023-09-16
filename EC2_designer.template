@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    50bf7dbb-0c02-4296-ace2-cb15f4e5bd56:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 475
+        'y': 166
+      z: 0
+Resources:
+  EC2I3ZRHU:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-03f65b8614a860c29
+      InstanceType: t2-micro
+      KeyName: morning
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 50bf7dbb-0c02-4296-ace2-cb15f4e5bd56
